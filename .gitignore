@@ -1,0 +1,81 @@
+# .gitignore for Salary prediction app
+# Purpose: avoid committing personal files, API keys, secrets, virtualenvs, and editor settings
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Secrets, environment and credentials (DO NOT COMMIT)
+env.*
+.env
+.env.*
+env.*
+!env.example
+secrets.json
+credentials.json
+config.ini
+config.yaml
+config.yml
+*.key
+*.pem
+*.secret
+*.token
+*.credentials
+api_key*
+apikey*
+api-keys*
+aws_credentials
+aws_credentials.json
+
+# Private keys and tokens
+*.p12
+*.jks
+
+# Misc
+__MACOSX/
